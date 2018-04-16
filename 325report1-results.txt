@@ -1,0 +1,20 @@
+
+Type                           PRICE     RATING                                 
+------------------------- ---------- ----------                                 
+IPA                             2.99          5                                 
+Oktoberfest                     4.65          9                                 
+American Imperial Porter        5.85          6                                 
+Stout                           5.99          9                                 
+Cream Ale                       6.99          5                                 
+English Bitter                     7          4                                 
+
+6 rows selected.
+
+
+Type                           PRICE     RATING                                 
+------------------------- ---------- ----------                                 
+Motzzarella Sticks              3.25          7                                 
+Chicken Wings                   5.99          8                                 
+Posole                             8          3                                 
+Garlic Fries                    8.99          8                                 
+

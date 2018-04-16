@@ -1,0 +1,56 @@
+creating customer...
+
+Table dropped.
+
+
+Table created.
+
+creating cust_email...
+
+Table dropped.
+
+
+Table created.
+
+creating employee...
+
+Table dropped.
+
+
+Table created.
+
+creating empl email...
+
+Table dropped.
+
+
+Table created.
+
+creating review...
+
+Table dropped.
+
+
+Table created.
+
+creating food...
+
+Table dropped.
+
+
+Table created.
+
+creating beer...
+
+Table dropped.
+
+
+Table created.
+
+create review_txt...
+
+Table dropped.
+
+
+Table created.
+

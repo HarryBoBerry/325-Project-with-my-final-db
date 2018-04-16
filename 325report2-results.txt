@@ -1,0 +1,41 @@
+This report shows the customer first and last names along with their email address which is multi valued
+
+Fri Jan 20                                                             page    1
+                            Customer Email Addresses
+
+Customer Name               EMAIL                                               
+--------------------------- --------------------------------------------------  
+Anthony, Hopkins            clariceIseeyou@gmail.com                            
+Bob, Marley                 Whereismycar@gmail.com                              
+Goku, Sho                   imhungry@yahoo.com                                  
+Greg, Thompson              HotStuff@hotmail.com                                
+Helen, Harper               hharper1988@gmail.com                               
+Jack, Black                 schoolofrock@rock.com                               
+John, Constantine           goddoesnotexist@hotmail.com                         
+Manson, Charles             PrisonSucked@yahoo.com                              
+Usain, Bolt                 fastestmanalive@gmail.com                           
+Vegeta, Sayan               iamthebest@humboldt.edu                             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             End of Email Addresses

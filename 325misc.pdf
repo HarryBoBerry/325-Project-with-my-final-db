@@ -1,0 +1,11 @@
+-- Harry Almeraz
+-- CS 325 - Fall 2016
+-- 12/8/16
+
+Some cool things I did to my project was using Actor's and Fictional characters in the database. I also
+think it was really cool that I used review with actual text and was able to establish that review_txt
+is a mv attribute so I put it into it's own table. I used actual names for products which where local to redwood
+curtain brewery. I also put alot of thought into the review's in review_txt. I did more than the required querries
+and did one more report just for fun. I also spent alot of timing making sure that it would be able to be used
+in the future if need be. Ill probably end of re-writing the entire thing during christmas break! Thanks for 
+everything Sharon I really enjoyed your class!

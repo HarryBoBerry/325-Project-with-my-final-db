@@ -1,0 +1,79 @@
+-- Harry Almeraz
+-- CS 325 - Fall 2016
+-- 12/8/16
+
+Files in 325 Project
+
+325design.sql
+
+- This file is the basis of the database. It create the framework for our inputs to go into
+
+325design.txt
+
+-shows the results of running the script 325design.sql
+
+325populate.sql
+
+- This file contains all the values for every single table we create with 325design.sql. It give the frame
+  something to display.
+
+
+325show-contents.sql
+
+-This of course shows the content of the tables using a set of select *'s which are very basic but show every 
+ bit of information in every table. Although messy its important to show that everything is working properly.
+
+325biz-rules.pdf
+
+-This is just a simple text file of what the business rule's for the scenario are
+
+325model.pdf
+
+-Show the current erd model of the scenario
+
+325queries.sql
+
+-This is a few simple querries showing how to use the database and the mutiple uses it can achieve
+
+325query-results.txt
+
+-Shows the results of running 325querries.sql
+
+325report1.sql
+
+-This is a pretty report of the contents of the database
+
+325report2.sql
+
+-This is another pretty report of the contents of the database
+
+325report-results1,2, and 3.pdf
+
+-Shows the results of running both 1 and 2 reports
+
+325report2.sql
+
+-This is a pretty report of the contents of the database
+
+325misc.pdf
+
+-short description of additional things I added to the database
+
+325discussion 1 and 2.pdf
+
+- These are simple pdf's answering some of the questions in the project mile stone!
+
+
+
+
+SETUP AND HELP!
+
+1. Make sure you copy you files into your desired directory
+2. Once the files are within the folder, type sqlplus and enter your user name and password used 
+3. Once in sqlplus type the following commands
+	@325design.sql
+	@325populate.sql
+	@325show-contents.sql
+4. Once you see that 325show-contents.sql actually carries values feel free to manipulate the database to you
+   prefered preferences. 
+

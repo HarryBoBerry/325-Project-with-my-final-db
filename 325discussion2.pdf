@@ -1,0 +1,24 @@
+-- Harry Almeraz
+-- CS 325 Fall 2016
+-- 12/8/16
+
+This database could be maintained reall easily. You would have to have some type of script written to ensure that
+you are able to insert new info on customers and their reviews. If there where to be a new beer or food item
+you would have to add those as well. But that is very easy. One thing I thought would interesting is if I added
+a sequence to review_id's so that everytime that a review is made it is automatically given a new uniqure primary
+key that can be used to identify it and this should also be applied to beer and food items when new ones come in.
+Some issues that might arrise is that with a large enough amount of data it could slow down considerably but
+since this is mostly just an inventory of current items, their names, and what their reviews are I could see
+someone maintaining this database on their own. I would even be able to make it more user friendly so that it
+could be easily modified, updated, or deleted without much effort from the owner. 
+
+With that in mind though. I believe that I would give access to the owner to edit and maintain their own database.
+I don't believe you would actually need a database administrator until you had multiple locations or 1000's of 
+different reviews. If that was the case you would probably need to hire an administrator to make sure that all
+the data is backed up and saved so that if for some reason the database crashed and the data was lost. You could
+easily recover it through proper backups. I don't feel like a normal person would be able to do this without
+it being automatically updated and even than it would be difficult for an automated system to actually do the
+job properly. You wouldn't want to loose multiple customer's information. But other than making sure that their
+values correlate to the restraints of the insert I don't find any reason why the business owner wouldn't 
+be able to maintain it themselves. 
+

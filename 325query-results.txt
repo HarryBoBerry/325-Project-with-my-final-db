@@ -1,0 +1,375 @@
+(Join) Displaying first and last name of customer with their review_id's. Helps show who is reviewing
+the most and how many times they have done it. If you wanted you could add an aggregate function to
+show exactly how many reviews a certain person has done. But since the amount of customer's with reviews
+is so small I didnt feel it neccesary.
+
+CUST_FNAME CUST_LNAME      REVIEW                                               
+---------- --------------- ------                                               
+Goku       Sho             04ABCD                                               
+Anthony    Hopkins         04ABCE                                               
+Goku       Sho             04ABCF                                               
+Manson     Charles         04ABCG                                               
+John       Constantine     04BBDF                                               
+Bob        Marley          04BBDE                                               
+Usain      Bolt            04BBDF                                               
+Anthony    Hopkins         JJD134                                               
+Goku       Sho             OVR999                                               
+Jack       Black           0444DA                                               
+
+10 rows selected.
+
+nested querry Simply shows what Anthony Hopkins has review.
+
+CUST_FNAME CUST_LNAME      REVIEW                                               
+---------- --------------- ------                                               
+Anthony    Hopkins         04ABCE                                               
+Anthony    Hopkins         JJD134                                               
+
+Aggregate function. This helps display what beers are above the average. This isn't too helpful in terms of
+owner use but if you where a customer I think this could be very helpful. It could assist you with
+helping you choose a beer that isn't too cheap but not the absolute most expenisve. Moderate spenders
+would appreciate this
+
+TYPE                           PRICE                                            
+------------------------- ----------                                            
+100 galaxies IPA                4.99                                            
+American Imperial Porter        5.85                                            
+Brown Ale                       4.99                                            
+Chocolate Stout                 7.99                                            
+Cream Ale                       6.99                                            
+Dry Irish Stout                    6                                            
+English Bitter                     7                                            
+English Brown Ale                  5                                            
+Space Oddity Double IPA         5.99                                            
+Stout                           5.99                                            
+
+10 rows selected.
+
+group by is used to tell the business owner who is in the top half of people who are greater than
+the avg number of stamps. Pertaining to a business rule
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+Bob        Marley                                                               
+Anthony    Hopkins                                                              
+John       Constantine                                                          
+Manson     Charles                                                              
+Goku       Sho                                                                  
+
+compound where condition. This helps display the product name and ratings of things greater than 8
+this could be used with any value desired and isnt only useful to the owner but the consumer as well
+
+TYPE                          RATING                                            
+------------------------- ----------                                            
+Stout                              9                                            
+Oktoberfest                        9                                            
+
+some sub-conditions
+this one shows what was on Anthony Hopkin's mind when he was eating his delectable brains, I mean garlic fries
+
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+Garlic fries are so savory. They remind me of Clarice when we first met. Decliou
+s from head head to toe                                                         
+                                                                                
+
+this sub-condition is for the email of Bob Marley, I think this is neat because it shows how this would
+work when dealing with a real look up of an email
+
+EMAIL                                                                           
+--------------------------------------------------                              
+Whereismycar@gmail.com                                                          
+
+this one is just for fun. Its the combination of 3 different tables which show all of anthony's review
+information
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+Anthony    Hopkins                                                              
+The chicken wings here are absoultely phenominal. Considering that this place is
+ a simple tavern, I would never have thought that something so good would be ser
+ved here!                                                                       
+         5                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+Normally I taste an IPA and I am shocked when I see that the brewer took time to
+ making something really special. But in this case it was simple and plain. Not 
+disapointed but would not reccomend to a freind                                 
+         5                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+I have tried alot of stoud in my time. I eat so much that I need a beer to curve
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+ my immesnse craving and this stout is exactly what I want in a beer. Super sayi
+ans need good beer and this is the perfect choice                               
+         5                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+This Cream ale is what I would consider the bain of society. It gives me weird f
+aces and is generally unenjoyable                                               
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+         5                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+I have been to hell and I have seen alot of people who would prefer cold water t
+o beer but when im walking down the shadowy gates I would say drink Oktoberfest.
+ Its Heavinly                                                                   
+         5                                                                      
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+This is literal one of the nastiest most unsatisfying drinks I have ever encount
+ered It is sour in more than one way and lacks the simple yearning I sook.      
+         5                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+Garlic fries are so savory. They remind me of Clarice when we first met. Decliou
+s from head head to toe                                                         
+         5                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+I really enjoyed the America Imperial Porter. It made me feel like I was really 
+the fastest man in the world! Although I would not order it again because of per
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+sonal taste.                                                                    
+         5                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+Cheese, cheese, cheese. Its like im collecting dragon balls how good it feels ta
+sting these! These are filling in way I didnt think where possible. Truly I was 
+never so satisfied with a meal!                                                 
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+         5                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+Have you ever done something so amazing that it was the greatest in the world an
+d you forgot what made it was so good until you eat it again. Well this is not i
+t, its not even a tribute                                                       
+         5                                                                      
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+The chicken wings here are absoultely phenominal. Considering that this place is
+ a simple tavern, I would never have thought that something so good would be ser
+ved here!                                                                       
+         8                                                                      
+                                                                                
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+Anthony    Hopkins                                                              
+Normally I taste an IPA and I am shocked when I see that the brewer took time to
+ making something really special. But in this case it was simple and plain. Not 
+disapointed but would not reccomend to a freind                                 
+         8                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+I have tried alot of stoud in my time. I eat so much that I need a beer to curve
+ my immesnse craving and this stout is exactly what I want in a beer. Super sayi
+ans need good beer and this is the perfect choice                               
+         8                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+This Cream ale is what I would consider the bain of society. It gives me weird f
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+aces and is generally unenjoyable                                               
+         8                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+I have been to hell and I have seen alot of people who would prefer cold water t
+o beer but when im walking down the shadowy gates I would say drink Oktoberfest.
+ Its Heavinly                                                                   
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+         8                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+This is literal one of the nastiest most unsatisfying drinks I have ever encount
+ered It is sour in more than one way and lacks the simple yearning I sook.      
+         8                                                                      
+                                                                                
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+Anthony    Hopkins                                                              
+Garlic fries are so savory. They remind me of Clarice when we first met. Decliou
+s from head head to toe                                                         
+         8                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+I really enjoyed the America Imperial Porter. It made me feel like I was really 
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+the fastest man in the world! Although I would not order it again because of per
+sonal taste.                                                                    
+         8                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+Cheese, cheese, cheese. Its like im collecting dragon balls how good it feels ta
+sting these! These are filling in way I didnt think where possible. Truly I was 
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+never so satisfied with a meal!                                                 
+         8                                                                      
+                                                                                
+Anthony    Hopkins                                                              
+Have you ever done something so amazing that it was the greatest in the world an
+d you forgot what made it was so good until you eat it again. Well this is not i
+t, its not even a tribute                                                       
+
+CUST_FNAME CUST_LNAME                                                           
+---------- ---------------                                                      
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+    RATING                                                                      
+----------                                                                      
+         8                                                                      
+                                                                                
+
+20 rows selected.
+
+This one is also just for fun. Shows the email of employees. I like these because the combine the mv
+attributes
+
+EMPL_FNAME                EMPL_LNAME                                            
+------------------------- -------------------------                             
+EMAIL                                                                           
+--------------------------------------------------                              
+Barbara                   Telling                                               
+barbrocks@gmail.com                                                             
+                                                                                
+Harry                     Almeraz                                               
+hta12@humboldt.edu                                                              
+                                                                                
+Jack                      Sparhawk                                              
+Sparkhawk@gmail.com                                                             
+                                                                                
+
+EMPL_FNAME                EMPL_LNAME                                            
+------------------------- -------------------------                             
+EMAIL                                                                           
+--------------------------------------------------                              
+Jim                       Lahey                                                 
+Imnotdrunk@hotmail.com                                                          
+                                                                                
+Jason                     Bourne                                                
+omgitsme@gmail.com                                                              
+                                                                                
+Elise                     Simmons                                               
+beautyandthebeast@gmail.com                                                     
+                                                                                
+
+EMPL_FNAME                EMPL_LNAME                                            
+------------------------- -------------------------                             
+EMAIL                                                                           
+--------------------------------------------------                              
+Honey                     Daniels                                               
+idance@hotmail.com                                                              
+                                                                                
+Jackie                    Brown                                                 
+mynextmoves@yahoo.com                                                           
+                                                                                
+Hailey                    Jones                                                 
+sweetypie@gmail.com                                                             
+                                                                                
+
+EMPL_FNAME                EMPL_LNAME                                            
+------------------------- -------------------------                             
+EMAIL                                                                           
+--------------------------------------------------                              
+Colin                     Jones                                                 
+dropthebass@gmail.com                                                           
+                                                                                
+
+10 rows selected.
+

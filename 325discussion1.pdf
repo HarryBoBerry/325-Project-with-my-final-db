@@ -1,0 +1,25 @@
+-- Harry Almeraz
+-- CS 325 - Fall 2016
+-- 12/8/16
+
+This database could be used in various ways. It allows you to look up information of your customers and employees.
+You can use this to give you the averages of customer reviews and show you which customers are reviewing the most
+and what they are reviewing along with their ratings. You could also use this database later on with purchases if
+this was ever implemented in the real world. It would allow you to look up their prefered payment method and if 
+if you wanted you could even use their email addesss to send coupons or recipets with every purchase. This database is
+ also helpful in figuring out which customers are near to 10 stamps which is in the business rules of recieving one
+free beer with every 10 stamps. 
+
+It is also possible to see what the actual review is from the customer and it's review id. I think it's important
+to keep the cust_id and reivew_id different so if anyone where to use this later the review id could be used
+in replacement of using cust_id which contains peronal information. You could use this data base for all sorts of
+things. You could use it to collect meta data about who purchases what and eventually create a favorite for that
+individual. This database isn't only important to the business owner but it could be used by the customer as well.
+It could be useful for a customer to look up either thier own information for knowledge on how many stamps they have
+or to look up the review of a food item or beer. reviews of items seem pretty basic but they hold alot of value to 
+the consumer and the owner. The owner could use this information to decided what products they should by next based
+on the ratings that it recieved. Overall, this database could be implimented to a the business it's meant for
+very easily and with the addition of a simple purchase table you could get even more data about what and why
+certain things are more popular than another. 
+
+

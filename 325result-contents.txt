@@ -1,0 +1,216 @@
+Displaying Customer...
+
+CUST CUST_FNAME CUST_LNAME      CUST_DOB  NUM_STAMPS PURCHASE_TYPE   DAY_FIRST  
+---- ---------- --------------- --------- ---------- --------------- ---------  
+1489 Helen      Harper          05-DEC-88          5 Credit          28-NOV-16  
+1592 Greg       Thompson        28-OCT-72          3 Cash            15-JAN-13  
+1620 Manson     Charles         12-NOV-34          8 Debit           20-FEB-15  
+4252 Vegeta     Sayan           04-OCT-78          4 Credit          10-SEP-15  
+4202 Bob        Marley          06-FEB-45          9 Cash            11-MAY-81  
+1892 Jack       Black           28-AUG-69          6 Credit          26-AUG-16  
+7915 Anthony    Hopkins         28-SEP-72          7 Cash            26-OCT-16  
+6349 John       Constantine     20-MAR-75          9 Credit          21-JAN-12  
+7092 Usain      Bolt            21-AUG-86          2 Cash            23-SEP-08  
+9223 Goku       Sho             26-NOV-79          7 Debit           25-DEC-15  
+
+10 rows selected.
+
+Displaying Employee..
+
+EMPL EMPL_FNAME                EMPL_LNAME                EMPL_DOB               
+---- ------------------------- ------------------------- ---------              
+2020 Barbara                   Telling                   24-JAN-82              
+9801 Harry                     Almeraz                   05-DEC-88              
+9422 Jack                      Sparhawk                  23-SEP-89              
+8998 Jim                       Lahey                     12-APR-26              
+7805 Jason                     Bourne                    16-JUL-72              
+0933 Elise                     Simmons                   24-AUG-81              
+9553 Honey                     Daniels                   19-JUL-92              
+7979 Jackie                    Brown                     25-DEC-82              
+9948 Hailey                    Jones                     19-NOV-89              
+1459 Colin                     Jones                     19-NOV-89              
+
+10 rows selected.
+
+Displaying Cust_email...
+
+CUST EMAIL                                                                      
+---- --------------------------------------------------                         
+1489 hharper1988@gmail.com                                                      
+1592 HotStuff@hotmail.com                                                       
+1620 PrisonSucked@yahoo.com                                                     
+4252 iamthebest@humboldt.edu                                                    
+4202 Whereismycar@gmail.com                                                     
+1892 schoolofrock@rock.com                                                      
+7915 clariceIseeyou@gmail.com                                                   
+6349 goddoesnotexist@hotmail.com                                                
+7092 fastestmanalive@gmail.com                                                  
+9223 imhungry@yahoo.com                                                         
+
+10 rows selected.
+
+Displaying Empl_email...
+
+EMPL EMAIL                                                                      
+---- --------------------------------------------------                         
+2020 barbrocks@gmail.com                                                        
+9801 hta12@humboldt.edu                                                         
+9422 Sparkhawk@gmail.com                                                        
+8998 Imnotdrunk@hotmail.com                                                     
+7805 omgitsme@gmail.com                                                         
+0933 beautyandthebeast@gmail.com                                                
+9553 idance@hotmail.com                                                         
+7979 mynextmoves@yahoo.com                                                      
+9948 sweetypie@gmail.com                                                        
+1459 dropthebass@gmail.com                                                      
+
+10 rows selected.
+
+Displaying Review...
+
+REVIEW PRODUC     RATING      READS CUST                                        
+------ ------ ---------- ---------- ----                                        
+04ABCD 214B56          8        125 9223                                        
+04ABCE 314A26          5       3000 7915                                        
+04ABCF 692KP4          9        367 9223                                        
+04ABCG 908CD4          5        552 1620                                        
+04BBDF 629331          9       1250 6349                                        
+04BBDE 420ADF          4        301 4202                                        
+04BBDF 2121OP          6       5021 7092                                        
+JJD134 51BTCE          8        425 7915                                        
+OVR999 KRITI3          7        302 9223                                        
+0444DA 233345          3       2011 1892                                        
+
+10 rows selected.
+
+Displaying Beer...
+
+B_ID   TYPE                           PRICE                                     
+------ ------------------------- ----------                                     
+314A26 IPA                             2.99                                     
+692KP4 Stout                           5.99                                     
+8090DA Brown Ale                       4.99                                     
+992GHA German Lager                     3.5                                     
+908CD4 Cream Ale                       6.99                                     
+109OKM Imperial Stout                  2.75                                     
+629331 Oktoberfest                     4.65                                     
+JQM990 English Brown Ale                  5                                     
+420ADF English Bitter                     7                                     
+2121OP American Imperial Porter        5.85                                     
+220FGH 100 galaxies IPA                4.99                                     
+
+B_ID   TYPE                           PRICE                                     
+------ ------------------------- ----------                                     
+890POK Beligain Camp Out Ale           2.99                                     
+PLI093 Citra Pale Ale                   3.5                                     
+557DAE Dry Irish Stout                    6                                     
+LA4BCD Citris Pale Ale                 3.25                                     
+KD4SC2 Chocolate Stout                 7.99                                     
+YAO3PT Space Oddity Double IPA         5.99                                     
+
+17 rows selected.
+
+Displaying Food...
+
+F_ID   TYPE                           PRICE                                     
+------ ------------------------- ----------                                     
+214B56 Chicken Wings                   5.99                                     
+51BTCE Garlic Fries                    8.99                                     
+KJJ089 Nachos                          7.75                                     
+KRITI3 Motzzarella Sticks              3.25                                     
+OKTP23 Sweet Potato Fries              6.99                                     
+KGO092 Mac and Cheese                  2.99                                     
+FFF132 Quesadilla                      4.25                                     
+40P212 Grilled Cheese                     2                                     
+233345 Posole                             8                                     
+MO05TA Hamburger                        4.5                                     
+2929OP Mini Tacos                      2.99                                     
+
+F_ID   TYPE                           PRICE                                     
+------ ------------------------- ----------                                     
+D9D123 Garlic Bread                    1.99                                     
+KOMLD3 Apple Pie                       1.99                                     
+
+13 rows selected.
+
+Displaying Review_txt...
+
+REVIEW                                                                          
+------                                                                          
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+214B56                                                                          
+The chicken wings here are absoultely phenominal. Considering that this place is
+ a simple tavern, I would never have thought that something so good would be ser
+ved here!                                                                       
+                                                                                
+314A26                                                                          
+Normally I taste an IPA and I am shocked when I see that the brewer took time to
+ making something really special. But in this case it was simple and plain. Not 
+disapointed but would not reccomend to a freind                                 
+
+REVIEW                                                                          
+------                                                                          
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+                                                                                
+692KP4                                                                          
+I have tried alot of stoud in my time. I eat so much that I need a beer to curve
+ my immesnse craving and this stout is exactly what I want in a beer. Super sayi
+ans need good beer and this is the perfect choice                               
+                                                                                
+908CD4                                                                          
+This Cream ale is what I would consider the bain of society. It gives me weird f
+aces and is generally unenjoyable                                               
+
+REVIEW                                                                          
+------                                                                          
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+                                                                                
+629331                                                                          
+I have been to hell and I have seen alot of people who would prefer cold water t
+o beer but when im walking down the shadowy gates I would say drink Oktoberfest.
+ Its Heavinly                                                                   
+                                                                                
+420ADF                                                                          
+This is literal one of the nastiest most unsatisfying drinks I have ever encount
+ered It is sour in more than one way and lacks the simple yearning I sook.      
+
+REVIEW                                                                          
+------                                                                          
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+                                                                                
+2121OP                                                                          
+Garlic fries are so savory. They remind me of Clarice when we first met. Decliou
+s from head head to toe                                                         
+                                                                                
+51BTCE                                                                          
+I really enjoyed the America Imperial Porter. It made me feel like I was really 
+the fastest man in the world! Although I would not order it again because of per
+sonal taste.                                                                    
+
+REVIEW                                                                          
+------                                                                          
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+                                                                                
+KRITI3                                                                          
+Cheese, cheese, cheese. Its like im collecting dragon balls how good it feels ta
+sting these! These are filling in way I didnt think where possible. Truly I was 
+never so satisfied with a meal!                                                 
+                                                                                
+233345                                                                          
+Have you ever done something so amazing that it was the greatest in the world an
+d you forgot what made it was so good until you eat it again. Well this is not i
+
+REVIEW                                                                          
+------                                                                          
+REVIEW                                                                          
+--------------------------------------------------------------------------------
+t, its not even a tribute                                                       
+                                                                                
+
+10 rows selected.
+
